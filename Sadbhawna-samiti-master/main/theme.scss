@@ -1,11 +1,11 @@
 /*!
-* Based on Bootstrap v4.0.0 (https://getbootstrap.com)
+* Based on Bootstrap v4.0.0 (https://getbootstrap.com) 
 */
-
+ 
 // Options
-//
+// 
 // Quickly modify global styling by enabling or disabling optional features.
-
+  
 $enable-rounded:            true !default;
 $enable-shadows:            true;
 $enable-transitions:        true;
@@ -18,8 +18,8 @@ $enable-print-styles:       true;
 // Colors
 
 $theme-colors: (
-  primary: #F22D74,
-  secondary: #00DC6C,
+  primary: #12bbad,
+  secondary: #4f70ce,
   light: #f3f3f3,
   dark: #151515,
   info: #ccc,
@@ -47,7 +47,7 @@ $spacer: 1.5rem;
 
 @import 'bootstrap-4.0.0';
 
-
+ 
 html,body {
    height:100%;
 }
