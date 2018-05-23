@@ -1,0 +1,6 @@
+.zoom{
+	transition: .5s;
+}
+.zoom:hover{
+	transform: scale(1.15);
+}
