@@ -43,7 +43,7 @@
   box-sizing: border-box; }
 
 html {
-  font-family:'Righteous', cursive;
+  font-family:'Poor Story', cursive;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -58,7 +58,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont,'Righteous', cursive,  "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont,'Poor Story', cursive, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
   font-weight: 200;
   line-height: 1.5;
@@ -146,7 +146,7 @@ a {
   -webkit-text-decoration-skip: objects; }
   a:hover {
     color: #C10044;
-    text-decoration: underline; }
+    text-decoration: none; }
 
 a:not([href]):not([tabindex]) {
   color: inherit;
@@ -298,6 +298,13 @@ template {
 
 [hidden] {
   display: none !important; }
+
+.list-unstyled
+	a{
+		text-decoration: none;
+		hover:
+	
+	}
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -1613,7 +1620,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   display: inline-block;
   font-weight: 200;
   text-align: center;
-  white-space: nowrap;
+  /*white-space: nowrap;*/
   vertical-align: middle;
   user-select: none;
   border: 1px solid transparent;
@@ -6128,7 +6135,7 @@ html, body {
     width: 100%;
     height: 100%;
     content: ' ';
-    background: rgba(21, 21, 21, 0.75); }
+    background: rgba(21, 21, 21, 0.25); }
 
 .filter-light {
   overflow: hidden;
