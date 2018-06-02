@@ -157,7 +157,7 @@ a:not([href]):not([tabindex]) {
   a:not([href]):not([tabindex]):focus {
     outline: 0;
 }
-.anchor {
+#anchor {
   color: white;
   text-decoration: none;
   background-color: transparent;
@@ -166,7 +166,7 @@ a:not([href]):not([tabindex]) {
     color:#4f7961;
     text-decoration: none; }
 
-.anchor:not([href]):not([tabindex]) {
+#anchor:not([href]):not([tabindex]) {
   color: inherit;
   text-decoration: none; }
   a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
