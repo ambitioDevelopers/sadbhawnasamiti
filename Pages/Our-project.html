@@ -4,52 +4,32 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<<<<<<< HEAD
-  
-  <!--STYLESHEETS-->
-
-  <link rel="stylesheet" href="../css/theme.css" type="text/css">
- <!--
-  <link rel="stylesheet" href="../css/style.css" type="text/css">
-<<<<<<< HEAD
-  -->
-  
-  <link rel="stylesheet" href="../css/colorPalette.css" type="text/css">
-  
-=======
->>>>>>> parent of 7652894... revert
   <link href="../css/business-casual.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="../css/theme.css" type="text/css">
   <link rel="stylesheet" href="../css/style.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Poor+Story" rel="stylesheet">
   <!--    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">-->
+<script>
+		function callmsg()
+		{
+		var qrStr = window.location.search;
+    qrStr = qrStr.split("?")[1].split("=")[1];
+		//	alert(qrStr);
+			if(qrStr=='1')
+			{
+			alert('Subscribed');
+			}
+			else
+			{
+			alert('Error occurred');
+			}
+		}
+		</script>
   
-  <!--Favicon-->
-  <link rel="apple-touch-icon" sizes="57x57" href="../Favicon/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="../Favicon/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="../Favicon/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="../Favicon/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="../Favicon/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="../Favicon/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="../Favicon/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="../Favicon/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="../Favicon/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="../Favicon/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="../Favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="../Favicon/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../Favicon/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-=======
-  <link href="https://fonts.googleapis.com/css?family=Poor+Story" rel="stylesheet">
-  <!--    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">-->
->>>>>>> parent of 71404e9... animation added index.html
 </head>
 
-<body>
+<body onload="callmsg();">
   <nav class="navbar navbar-expand-md navbar-light">
     <div class="container">
       <a href="../index.html">
@@ -258,23 +238,22 @@ This time of year, our flower gardens are in full bloom. Be sure to keep them hy
             <div class="col-md-12 text-right">
               <h1 class="text-center text-white">GET UPDATE REGARDING EVENT AND ORGANISATION NEWS</h1>
             </div>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="card-body">
-                  <form action="https://formspree.io/YOUREMAILHERE">
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="First Name"> </div>
-                    <div class="form-group">
-                      <input type="email" class="form-control" placeholder="Your Email Address"> </div>
-                  </form>
-                </div>
+			  <form action="insert4.php" method="post" class="m-5">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card-body">
+                <form action="https://formspree.io/YOUREMAILHERE">
+                  <div class="form-group">
+                    <input type="text" class="form-control my-3 form-control-lg" placeholder="First Name" name="fname"> </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control my-3 form-control-lg" placeholder="Your Email Address" name="email"> </div>
               </div>
-              <div class="col-md-6">
-                <div class="card-body">
-                  <form action="https://formspree.io/YOUREMAILHERE">
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Last Name"> </div>
-                  </form>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                  <div class="form-group">
+                    <input type="text" class="form-control my-3 form-control-lg" placeholder="Last Name" name="lname"> </div>
+                </form>
                   <button type="submit" class="btn bg-pallate1 text-white btn-block">Subscribe to Newsletter</button>
                 </div>
               </div>
