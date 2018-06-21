@@ -163,7 +163,7 @@ a:not([href]):not([tabindex]) {
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
-    color:#4f7961;
+    color:#C10044;
     text-decoration: none; }
 
 #anchor:not([href]):not([tabindex]) {
