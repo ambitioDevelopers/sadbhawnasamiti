@@ -6243,7 +6243,7 @@ html, body {
   left: 0%; }
   .animate-in-left.out-of-viewport {
     opacity: 0;
-    left: -5%; }
+    left: -10%; }
 
 .animate-in-right {
   transition: all 1.0s ease-out;
