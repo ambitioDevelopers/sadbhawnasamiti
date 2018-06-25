@@ -96,7 +96,6 @@
       </div>
     </div>
   </div>
-  
 Founder and chairperson
   <div class="bg-light">
     <div class="container p-0 m-0">
@@ -110,15 +109,19 @@ Founder and chairperson
           </h1>
           <div class="row">
             <div class="col-md-6">
-              <a class="btn btn-secondary btn-green btn-block  my-3 btn-lg" href="" data-toggle="tab" data-target="#tabone">Founder</a>
+              <a class="btn btn-secondary btn-green btn-block  my-3 btn-lg" href="" data-toggle="tab" data-target="#tabone" id="founderBtn">Founder</a>
             </div>
             <div class="col-md-6">
-              <a class="btn btn-secondary btn-green btn-block my-3 btn-lg" href="" data-toggle="tab" data-target="#tabtwo">Chairperson</a>
+              <a class="btn btn-secondary btn-green btn-block my-3 btn-lg" href="" data-toggle="tab" data-target="#tabtwo" id="chairpersonBtn">Chairperson</a>
             </div>
-            <p class=" my-3 h-50" id="tabone" role="tabpanel">Flex setting of this column. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            <p class=" my-3 h-50" id="tabonePara" role="tabpanel">Flex setting of this column. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
               ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Flex
               setting of this column. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-              commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            <p class=" my-3 h-50" id="tabtwoPara" role="tabpanel">
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, ratione laboriosam, iure laborum ab tenetur molestiae repellat illo, eum accusantium dolorem numquam nostrum culpa dolorum nisi laudantium minima voluptatum accusamus?
+              </p>              
           </div>
         </div>
       </div>
@@ -126,7 +129,7 @@ Founder and chairperson
   </div>
   
   
-  Team member section
+ <!-- Team member section-->
   <div class="py-5">
     <div class="container-fluid">
       <div class="row">
@@ -195,7 +198,7 @@ Founder and chairperson
     </div>
   </div>
   
-  Career page links
+  <!--Career page links-->
   <div class="py-5 bg-light">
     <div class="container">
       <div class="row">
@@ -348,6 +351,22 @@ Founder and chairperson
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>-->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+  <script src="../js/jquery.min.js"></script>
+  <script>
+        $("#tabonePara").show();
+        $("#tabtwoPara").hide();
+      
+          jQuery("#founderBtn").click(function(){
+              $("#tabonePara").show();
+              $("#tabtwoPara").hide();
+          });
+            
+          jQuery("#chairpersonBtn").click(function(){
+              $("#tabonePara").hide();
+              $("#tabtwoPara").show();
+          });
+  </script>  
 
 </body>
 
