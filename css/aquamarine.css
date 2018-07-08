@@ -4957,7 +4957,7 @@ button.bg-dark:focus {
 .m-3 {
   margin: 1.5rem !important; }
 
-.mt-3,
+.mt-3 text-capitalize,
 .my-3 {
   margin-top: 1.5rem !important; }
 
