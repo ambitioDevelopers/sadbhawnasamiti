@@ -1,0 +1,282 @@
+/*!
+* Based on Bootstrap v4.0.0 (https://getbootstrap.com) 
+*/
+ 
+// Options
+// 
+// Quickly modify global styling by enabling or disabling optional features.
+  
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900');
+$enable-rounded:            true !default;
+$enable-shadows:            true;
+$enable-transitions:        true;
+$enable-hover-media-query:  false;
+$enable-grid-classes:       true;
+$enable-print-styles:       true;
+
+// Variables
+//
+// Colors
+
+$theme-colors: (
+  primary: #12bbad,
+  secondary: #4f70ce,
+  light: #f3f3f3,
+  dark: #151515,
+  info: #ccc,
+  success: #28a745,
+  warning: #ffc107,
+  danger: #dc3545
+);
+
+$body-bg: white;
+$body-color: #333;
+
+
+$body-color-inverse: invert($body-color) !default;
+$link-color: #12bbad;
+
+// Fonts
+$font-family-base: Source Sans Pro;
+
+$headings-font-family: $font-family-base;
+$display-font-family: $font-family-base;
+$font-weight-normal: 200;
+$headings-font-weight: 200;
+$lead-font-size:   1.30rem;
+
+$spacer: 1.5rem;
+
+
+@import 'bootstrap-4.0.0';
+
+html,body {
+   height:100%;
+}
+
+body > * {
+  background-position: center;
+  background-size: cover;
+}
+
+
+.inset-shadowed {
+  box-shadow: inset 0px 0px 45px #555;
+}
+
+.shadowed {
+  box-shadow: 0px 0px 5px #555;
+}
+
+.section-aquamarine {
+  position: relative;
+  color:white;
+  background-size:cover;
+  background-position: center;
+	&:before {
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height: 100%;
+    content: ' ';
+    background: linear-gradient(to bottom right, transparentize(theme-color("primary"), 0.1) 0%, transparentize(theme-color("secondary"), 0.1) 100%);
+  }
+}
+
+.section-dark {
+  position: relative;
+  color:map-get($theme-colors, 'light');
+  background-size:cover;
+  background-position: center;
+	&:before {
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height: 100%;
+    content: ' ';
+    background: rgba(map-get($theme-colors, 'dark'), 0.75);
+  }
+}
+
+.section-light {
+  position: relative;
+  color:map-get($theme-colors, 'dark');
+  background-size:cover;
+  background-position: center;
+	&:before {
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height: 100%;
+    content: ' ';
+    background: rgba(map-get($theme-colors, 'light'), 0.75);
+  }
+}
+
+.section-parallax {
+  background-attachment: fixed;
+  background-size:cover;
+  background-position: center;
+}
+
+.bg-aquamarine {
+	background: linear-gradient(-30deg, transparentize(theme-color("secondary"), 0.1) 0%, transparentize(theme-color("primary"), 0.1) 50%, transparentize(theme-color("primary"), 0.05) 100%);
+  color:white;
+}
+
+.img-thumbnail {
+  border:0px;
+  padding:10px;
+}
+
+.carousel {
+	.carousel-caption {
+    padding-top:50px;
+    padding-bottom:20px;
+	  bottom:0px;
+		background: linear-gradient(transparent 10%, transparentize(theme-color("dark"), 0.05) 100%);}
+  .carousel-control-next, .carousel-control-prev {
+    opacity:0.85;}
+  .carousel-indicators {
+    bottom: 0px;
+  }
+}
+
+
+
+/* Animate state between .navbar and .navbar-ontop */
+.navbar  {
+  transition: background-color .5s ease-out;
+}
+
+.navbar-ontop {
+  background-color: transparent !important;
+}
+
+/* Animate on entrance */
+
+.animate-in-down {
+  transition: all 1.3s ease-out;
+	position:relative;
+  opacity:1;
+  top:0px;
+  &.out-of-viewport {
+    top:40px;
+    opacity:0;
+  }
+}
+
+
+.animate-in-left {
+  transition: all 1.0s ease-out;
+	position:relative;
+  opacity:1;
+	left:0%;
+  &.out-of-viewport {
+    opacity:0;
+      left:-5%;
+  }
+}
+
+
+.animate-in-right {
+  transition: all 1.0s ease-out;
+	position:relative;
+  opacity:1;
+	left:0%;
+  &.out-of-viewport {
+    opacity:0;
+    left:5%;
+  }
+}
+
+
+.cover {
+	min-height:100%;
+  display:flex;
+  align-items:center
+}
+
+
+.bg-gradient {
+  overflow: hidden;
+  color: color-yiq(map-get($theme-colors, 'primary'));
+  background: linear-gradient(-30deg, theme-color("secondary") 0%, theme-color("primary") 50%, theme-color("primary") 100%);
+}
+
+.filter-dark {
+  overflow: hidden;
+  position: relative;
+  color: color-yiq(map-get($theme-colors, 'dark'));
+	&:before {
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height: 100%;
+    content: ' ';
+    background: rgba(map-get($theme-colors, 'dark'), 0.25);
+  }
+}
+
+.filter-light {
+  overflow: hidden;
+  position: relative;
+  color: color-yiq(map-get($theme-colors, 'light'));
+	&:before {
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height: 100%;
+    content: ' ';
+    background: rgba(map-get($theme-colors, 'light'),0.25);
+  }
+}
+
+.filter-color {
+  overflow: hidden;
+  position: relative;
+  color: color-yiq(map-get($theme-colors, 'primary'));
+	&:before {
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height: 100%;
+    content: ' ';
+    background: rgba(map-get($theme-colors, 'primary'), 0.25);
+  }
+}
+
+.filter-gradient {
+  overflow: hidden;
+  position: relative;
+  color: color-yiq(map-get($theme-colors, 'primary'));
+	&:before {
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height: 100%;
+    content: ' ';
+    background: linear-gradient(-30deg, transparentize(theme-color("secondary"), 0.1) 0%, transparentize(theme-color("primary"), 0.1) 50%, transparentize(theme-color("primary"), 0.05) 100%);
+  }
+}
+
+.  {
+  overflow: hidden;
+  position: relative;
+  &:before {
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height: 100%;
+    content: ' ';
+    background: linear-gradient($body-bg, transparentize($body-bg, 0.2),transparentize($body-bg, 0.9),transparentize($body-bg, 1));
+	}
+}

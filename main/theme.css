@@ -6163,10 +6163,10 @@ html, body {
     content: ' ';
     background: linear-gradient(-30deg, rgba(0,220,108, 0.9) 0%, rgba(18, 187, 173, 0.9) 50%, rgba(18, 187, 173, 0.95) 100%); }
 
-.filter-fade-in {
+.  {
   overflow: hidden;
   position: relative; }
-  .filter-fade-in:before {
+  . :before {
     position: absolute;
     top: 0px;
     left: 0px;
