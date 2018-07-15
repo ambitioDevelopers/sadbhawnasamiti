@@ -31,8 +31,8 @@
   --danger: #dc3545;
   --light: #f3f3f3;
   --dark: #151515;
-  --colour1: #F10055;
-  --colour1: #C8F2DD;
+  --colour1: #F02F72;
+  --colour2: #C8F2DD;
 	
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
@@ -4204,7 +4204,7 @@ button.bg-dark:focus {
 /* User Colour Background */
 
 .bg-colour1 {
-  background-color: #F10055 !important; }
+  background-color: #F02F72 !important; }
 
 a.bg-colour1:hover, a.bg-colour1:focus,
 button.bg-colour1:hover,
@@ -6273,7 +6273,7 @@ body > * {
     width: 100%;
     height: 100%;
     content: ' ';
-    background: rgba(241, 0, 85, 0.25) ; }
+    background: rgba(220, 53, 0, 0.5) ; }
 
 .filter-gradient {
   overflow: hidden;
