@@ -64,9 +64,14 @@
 @media (min-width: 992px) {
   .intro .intro-text {
     width: 75%;
+    min-height: 500px;
     float: right;
-
   }
+    
+.intro .inner-intro{
+    width: 72%;
+    float: right;
+}    
   .intro .intro-img {
     left: 0;
     width: 60%;
@@ -85,10 +90,5 @@
   .intro .intro-img {
     width: 40%;
   }
-}
-
-.intro .inner-intro{
-float: right;
-width: 72%;
 }
 
