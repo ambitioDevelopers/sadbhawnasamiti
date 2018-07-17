@@ -5,28 +5,24 @@
  
   <!--WEBPAGE NAME-->
   <title>Sadbhawna Samiti</title>
-  
+	
   <!--META DATA-->
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Non-Profit Organisation"> 
   
-  <!--STYLESHEETS-->
-  <link rel="stylesheet" href="../../css/style.css" type="text/css">
-  <link rel="stylesheet" href="../../css/theme.css" type="text/css">
-  <link rel="stylesheet" href="../../css/colorPalette.css" type="text/css">
-  <link href="../../css/business-casual.css" rel="stylesheet">
+  <!--STYLESHEET-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-  <!--    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">-->
+  
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css">
+  <link rel="stylesheet" href="../../css/business-casual.css" type="text/css">
+  <link rel="stylesheet" href="../../css/style.css">
   
   <!-- Script: Animated entrance -->
-  <script src="../../js/animate-in.js"></script>
-  
-  <!--GOOGLE FONTS-->
-  <link href="https://fonts.googleapis.com/css?family=Poor+Story" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <script src="../js/animate-in.js"></script>
   
   <!--Favicon-->
-  <link rel="apple-touch-icon" sizes="57x57" href="../../Favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="../../images/Favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="../../Favicon/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="../../Favicon/apple-icon-72x72.png">
   <link rel="apple-touch-icon" sizes="76x76" href="../../Favicon/apple-icon-76x76.png">
@@ -52,7 +48,10 @@
 </head>
 
 <body>
- <div class="preloader-outer">
+ 
+ <!--PRELOADER-->
+
+<div class="preloader-outer" >
 	<div class="preloader">
 		<div class="lines">
 			<div class="line line-1"></div>
@@ -65,58 +64,54 @@
 </div>
 <!-- Preloader end -->
  
-  <!--TOPBAR-->
-  <nav class="navbar navbar-expand- navbar-light">
+ <!--TopBAR-->
+  <header class="py-1 bg-white ">
     <div class="container">
-      <a href="../../index.html">
-        <img class="img-fluid d-block" src="../../images/logo.png" width="200"> </a>
-      <!--<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent">
-        <span class="navbar-toggler-icon"></span>
-      </button>-->
-      <div class="text-center justify-content-end">
-        <!--<ul class="navbar-nav">
-          <li class="nav-item">
-           -->
-        <a class="mx-1" href="tel: +91522 4234065">
-          <i class="fa fa-mobile fa-1x d-inline"></i> +91522 4234065</a>
-        <!--
-          </li>
-          <li class="nav-item">
-           -->
-        <a class="mx-1" href="mailto:sadbhawna.lko@gmail.com">
-          <i class="fa d-inline fa-envelope-o fa-1x"></i> sadbhawna.lko@gmail.com </a>
-        <!--  </li>
-        </ul>
-        -->
-        <a href="../Donation.html" class="btn  text-white btn-primary mx-1 btn-lg">Donation</a>
+      <div class="row">
+        <div class="col-md-3">
+          <img class="img-fluid d-block mx-auto" src="../../images/logo.png">
+        </div>
+        <div class="col-md-3 align-items-center d-flex justify-content-center ">
+          <a class="my-2 text-colour1" href="tel: +91522 4234065">
+            <i class="fa fa-mobile fa-1x d-inline"></i> +91522-4234065</a>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center align-items-center ">
+          <a class="my-2 text-colour1" href="mailto:sadbhawna.lko@gmail.com">
+            <i class="fa d-inline fa-envelope-o fa-1x"></i> sadbhawna.lko@gmail.com </a>
+        </div>
+        <div class="col-md-3 d-flex align-items-center justify-content-center">
+         
+          <a href="../Donation.html" class="btn  text-white btn-lg my-2 btn-colour1">Donation</a>
+        </div>
       </div>
     </div>
-  </nav>
+  </header>
+  
   <!--NAVIGATION-->
-  <nav class="navbar navbar-expand-md bg-pallate1 navbar-dark">
-    <div class="container">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar3SupportedContent">
+  <nav class="navbar navbar-expand-md navbar-light bg-colour2 sticky-top">
+    <div class="container-fluid">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse text-center justify-content-center" id="navbar3SupportedContent">
-        <ul class="navbar-nav">
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav list-unstyled">
           <li class="nav-item">
-            <a class="nav-link" href="../../index.html">Home</a>
+            <a class="nav-link active" href="../../index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../about.html">About Us</a>
+            <a class="nav-link" href="../About.html">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../our_activities/Act-p6.html">Our Activities</a>
+            <a class="nav-link" href="Act-p6.html">Our Activities</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../Work.html">Our Work</a>
+            <a class="nav-link" href="../work.html">Our Work</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../Gallery.html">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="active nav-link" href="../career.html">Career</a>
+            <a class="nav-link" href="../career.html">Career</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../contact.html">Contact Us</a>
@@ -125,44 +120,42 @@
       </div>
     </div>
   </nav>
+  <!--EOF NAVIGATION-->
   
 <!--ACTIVITES-->
-<div class="">
-    <div class="bg-secondary text-white p-3" id="career">
+  <div class="py-5 bg-colour1 text-white">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 text-white">
-          <h1 class="section-heading text-capitalize text-left">Telling stories that make a difference:</h1>
-           
+        <div class="col-md-12">
+          <h1 class="display-4"> <b>Telling Stories That Make A Difference:</b></h1>
         </div>
       </div>
     </div>
   </div>
       
-  <div class="container mt-3 text-capitalize">
+  <div class="container">
       <div class="row">
         
         <!--ACT-1-->
         
         <!--Image-->
-        <div class="container my-2">
-          <div class="intro" id="first">
-            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded animate-in-left " src="../../images/our-activities/03/img3.png" alt="" style="box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.25);">
-            
-           <!--TEXT-->
-           
-            <div class="intro-text left-0 text-left bg-faded p-5 rounded text-white bg-primary">
+        <div class="container my-3 pt-3">
+          <div class="intro">
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded animate-in-left shadow" src="../../images/our-activities/03/img3.png" alt="">
+                     
+             <!--TEXT-->
+            <div class="intro-text left-0 text-left  p-4 rounded bg-colour1 text-white">
               <div class="inner-intro animate-in-right">
-                <h1 class="display-4 font-weight-bold content">"Health Checkup Camp"</h1>
+                <h2 class="display-4">"Health Checkup Camp"</h2>
                 
                 <!--DATE-->
-                <h4 class="mb-4 content" id="project01">&#91; Saturday,2017 November 5 &#93;</h4>
+                <h4 class="mb-4">&#91; Saturday,2017 November 5 &#93;</h4>
                 
                 <!--Content-->
-                <p class="mb-3 content">It was a free health checkup camp conducted by Sadbhawna Samiti for women, children, specially abled children, men and elderly people. It was conducted with the help of Sadbhawana hospital. The doctors were sent from Sadbhawana Hospital. There was a Gynaecologist, Physician, Physiotherapist, nurse and helpers. The services given to them included consultation, checkup (height, weight, blood pressure), women related issues, sugar test, bones check, nutrition and also physiotherapy. They were also given free medicines according to the doctor's advice and prescription.</p>
+                <p class="mb-3">It was a free health checkup camp conducted by Sadbhawna Samiti for women, children, specially abled children, men and elderly people. It was conducted with the help of Sadbhawana hospital. The doctors were sent from Sadbhawana Hospital. There was a Gynaecologist, Physician, Physiotherapist, nurse and helpers. The services given to them included consultation, checkup (height, weight, blood pressure), women related issues, sugar test, bones check, nutrition and also physiotherapy. They were also given free medicines according to the doctor's advice and prescription.</p>
                 
-                <!--collapise content-->
-                <a class="btn btn-lg btn-outline-light" href="#collapse1" data-toggle="collapse" >Read More</a>
+                 <!--collapise content-->
+                <a class="btn btn-lg btn-outline-light mb-3" id="expand1" href="#collapse1" data-toggle="collapse" >Read More</a>
                 
                 
                 <div class="collapse mt-2" id="collapse1">
@@ -172,101 +165,7 @@
                 <a href="../Gallery_pages/album6.html" class="anchor-gallery"><p class="lead">View Gallery &gt; </p></a>
                 
                 <!--COMMENTS-->
-                <p class="lead">Comments</p>
-                <div class="row">
-                  <div class="col-md-12">
-                   <a href="#commentform1" data-toggle="collapse" style="color: #fff;">
-                   	 <p class="lead">&#43; Add Your Comment </p>
-                   </a>
-                    
-                    <!--COMMENTFORM-->
-                    <div class="col-md-12 mb-2 collapse" id="commentform1">
-                      <form>
-                        <div class="form-group">
-                          <textarea class="form-control p-1 form-control-lg" id="exampleTextarea" rows="3" placeholder="Your message" name="message"></textarea>
-                        </div>
-                        <div class="form-group">
-                          <input type="text" class="form-control form-control-sm" id="inlineFormInput" placeholder="Name" required="required" name="Name"> </div>
-                        <div class="form-group">
-                          <input type="email" class="form-control form-control-sm" placeholder="Email" required="required" name="email"> </div>
-                        <button type="submit" class="btn btn-sm btn-block btn-light">SUBMIT</button>
-                      </form>
-                    </div>
-                    
-                  </div>
-                  
-                  <!--share links for projects-->                    
-                  <div class="mt-3 text-capitalize">
-                    <div class="d-inline-flex">
-                      <h2>Share:</h2>
-                      <div class="col-12 d-inline-flex col-md-12">
-                        <a href="https://www.facebook.com/" class="text-white" target="_blank">
-                          <i class="fa fa-fw fa-facebook fa-2x mx-2 text-white"></i>
-                        </a>
-                        <a href="https://www.google.com/" class="text-white" target="_blank">
-                          <i class="fa fa-google-plus fa-2x mx-2 text-white"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/feed/" class="text-white" target="_blank">
-                          <i class="fa fa-fw fa-2x fa-linkedin mx-2 text-white"></i>
-                        </a>
-                        <a href="https://www.instagram.com/sadbhawna.samiti/" class="text-white" target="_blank">
-                          <i class="fa fa-fw fa-instagram fa-2x mx-2 text-white"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <!--EOF SHARE LINKS-->
-                  
-                </div>
-                
-                <!--EOF COLLAPISE-->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <!--ACT-2-->
-        
-        <!--IMAGE-->
-        
-        <div class="container my-2">
-          <div class="intro">
-            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded animate-in-left"
-            src="../../images/our-activities/03/img4.png" alt="" style="box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.25);">
-            <div class="intro-text left-0 text-left bg-faded p-5 rounded bg-pallate2 text-white" style="background-color: #00DC6C;">
-             
-            
-              <div class="inner-intro animate-in-right">
-                <h1 class="display-4 font-weight-bold content">"Koi Deewana Kehta Hain"</h1>
-                
-                
-                <!--DATE-->
-                <h4 class="mb-4 content" id="project01">&#91; Monday,2017 November 2 &#93;</h4>
-                
-                <!--Content-->
-                <p class="mb-3 content">Koi Deewana Kehta Hain ( An evening on humanity and poetry) with Dr Kumar Vishwas, Dr Anjum Rehbar and Dr Nirmal Darshan!</p>
-                
-                <!--collapise content-->
-                <a class="btn btn-lg btn-outline-light mb-3" href="#collapse2" data-toggle="collapse" >Read More</a>
-                
-                <div class="collapse mt-2" id="collapse2">
-                <!--LINK TO GALLERY-->
-                <p class="mb-3 content">Sadbhawna Samiti is organising a charitable event called ‘Koi Deewana Kehta Hai’ (an evening on humanity and poetry) at Sangeet Natya Academy. It is dedicated to the work and life of late Dr. K. N. Mishra (founder of Sadbhwana Samiti) who himself was a poet. This event shall commence with giving gifts (like wheelchair, crutches etc) to the specially abled children and their parents. This will be followed by a Kavi Sammelan which has mesmerizing performances by three eminent poets of the country; Dr. KUMAR VISHWAS, Dr. ANJUM REHBAR, Dr. NIRMAL DARSHAN. It is in our city of Nawabs, where people passionately lend their ears to listen to the language of poetry which unites them all, over different emotions that comes out of words! This is the beginning of a never ending celebration of poetry. We want to create the magical aura of poetry in our city which already beams of art and culture.
-                <br>
-
-Venue: Sant Gadge Ji Maharaj Auditorium, Bypass Road, Near Reserve Bank of India, Vipin Khand, Gomti Nagar, Uttar Pradesh, 226010
-<br>
-
-For further details, contact : 9839107666, 9838489698
-                </p>
-                
-                <!--NO-LINK TO GALLERY--
-                <a href="../Gallery_pages/album4.html" class="anchor-gallery"><p class="lead">View Gallery &gt; </p></a>
-                
-                
-                <!--COMMENTS-->
-                <p class="lead">Comments</p>
+                <p class="lead mt-4">Comments :</p>
                 <div class="row">
                   <div class="col-md-12">
                    <a href="#commentform2" data-toggle="collapse" style="color: #fff;">
@@ -289,11 +188,12 @@ For further details, contact : 9839107666, 9838489698
                     
                   </div>
                   
-                  <!--share links for projects-->                    
-                  <div class="mt-3 text-capitalize">
-                    <div class="d-inline-flex">
+                  </div>
+                  
+                  <!--share links for projects-->             <div class="mt-2">       
+                    <div class="d-inline-flex ">
                       <h2>Share:</h2>
-                      <div class="col-12 d-inline-flex col-md-12">
+                      <div class="d-inline-flex col-md-12">
                         <a href="https://www.facebook.com/" class="text-white" target="_blank">
                           <i class="fa fa-fw fa-facebook fa-2x mx-2 text-white"></i>
                         </a>
@@ -318,32 +218,123 @@ For further details, contact : 9839107666, 9838489698
               </div>
             </div>
 		   </div>
-          </div>
+       </div>
+        
+        <!--ACT-2-->
+        
+        <!--IMAGE-->
+        
+        <div class="container my-2">
+          <div class="intro">
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded animate-in-left"
+            src="../../images/our-activities/03/img4.png" alt="" style="box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.25);">
+            <div class="intro-text left-0 text-left bg-faded p-5 rounded bg-pallate2 text-white" style="background-color: #00DC6C;">
+             
+            
+              <div class="inner-intro animate-in-right">
+                <h1 class="display-4 font-weight-bold content">"Koi Deewana Kehta Hain"</h1>
+                
+                
+                <!--DATE-->
+                <h4 class="mb-4 content" id="project01">&#91; Monday,2017 November 2 &#93;</h4>
+                
+                <!--Content-->
+                <p class="mb-3 content">Koi Deewana Kehta Hain ( An evening on humanity and poetry) with Dr Kumar Vishwas, Dr Anjum Rehbar and Dr Nirmal Darshan!</p>
+                
+                <!--collapise content-->
+                <a class="btn btn-lg btn-outline-light mb-3" id="expand2" href="#collapse2" data-toggle="collapse" >Read More</a>
+                
+                <div class="collapse mt-2" id="collapse2">
+                <!--LINK TO GALLERY-->
+                <p class="mb-3">Sadbhawna Samiti is organising a charitable event called ‘Koi Deewana Kehta Hai’ (an evening on humanity and poetry) at Sangeet Natya Academy. It is dedicated to the work and life of late Dr. K. N. Mishra (founder of Sadbhwana Samiti) who himself was a poet. This event shall commence with giving gifts (like wheelchair, crutches etc) to the specially abled children and their parents. This will be followed by a Kavi Sammelan which has mesmerizing performances by three eminent poets of the country; Dr. KUMAR VISHWAS, Dr. ANJUM REHBAR, Dr. NIRMAL DARSHAN. It is in our city of Nawabs, where people passionately lend their ears to listen to the language of poetry which unites them all, over different emotions that comes out of words! This is the beginning of a never ending celebration of poetry. We want to create the magical aura of poetry in our city which already beams of art and culture.
+                <br>
+                Venue: Sant Gadge Ji Maharaj Auditorium, Bypass Road, Near Reserve Bank of India, Vipin Khand, Gomti Nagar, Uttar Pradesh, 226010
+                <br>
+                For further details, contact : 9839107666, 9838489698
+                </p>
+                
+                <!--NO-LINK TO GALLERY--
+                <a href="../Gallery_pages/album4.html" class="anchor-gallery"><p class="lead">View Gallery &gt; </p></a>
+                
+                
+               <!--COMMENTS-->
+                <p class="lead mt-4">Comments :</p>
+                <div class="row">
+                  <div class="col-md-12">
+                   <a href="#commentform2" data-toggle="collapse" style="color: #fff;">
+                   	 <p class="lead">&#43; Add Your Comment </p>
+                   </a>
+                    
+                    <!--COMMENTFORM-->
+                    <div class="col-md-12 mb-2 collapse" id="commentform2">
+                      <form>
+                        <div class="form-group">
+                          <textarea class="form-control p-1 form-control-lg" id="exampleTextarea" rows="3" placeholder="Your message" name="message"></textarea>
+                        </div>
+                        <div class="form-group">
+                          <input type="text" class="form-control form-control-sm" id="inlineFormInput" placeholder="Name" required="required" name="Name"> </div>
+                        <div class="form-group">
+                          <input type="email" class="form-control form-control-sm" placeholder="Email" required="required" name="email"> </div>
+                        <button type="submit" class="btn btn-sm btn-block btn-light">SUBMIT</button>
+                      </form>
+                    </div>
+                    
+                  </div>
+                  
+                  </div>
+                  
+                  <!--share links for projects-->             <div class="mt-2">       
+                    <div class="d-inline-flex ">
+                      <h2>Share:</h2>
+                      <div class="d-inline-flex col-md-12">
+                        <a href="https://www.facebook.com/" class="text-white" target="_blank">
+                          <i class="fa fa-fw fa-facebook fa-2x mx-2 text-white"></i>
+                        </a>
+                        <a href="https://www.google.com/" class="text-white" target="_blank">
+                          <i class="fa fa-google-plus fa-2x mx-2 text-white"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/feed/" class="text-white" target="_blank">
+                          <i class="fa fa-fw fa-2x fa-linkedin mx-2 text-white"></i>
+                        </a>
+                        <a href="https://www.instagram.com/sadbhawna.samiti/" class="text-white" target="_blank">
+                          <i class="fa fa-fw fa-instagram fa-2x mx-2 text-white"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!--EOF SHARE LINKS-->
+                  
+                </div>
+                
+                <!--EOF COLLAPISE-->
+                
+              </div>
+            </div>
+		   </div>
        </div>
         
         <!--ACT-3-->
         
         <!--IMAGE-->        
-        <div class="container my-2">
+        <div class="container my-3 pt-3">
           <div class="intro">
-           <img class="intro-img img-fluid mb-3 mb-lg-0 rounded animate-in-left"
-           src="../../images/our-activities/04/img1.png" alt="" style="box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.25);">
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded animate-in-left shadow" 
+           src="../../images/our-activities/04/img1.png" alt="" >
            
             <!--TEXT-->
-            <div class="intro-text left-0 text-left bg-faded p-5 rounded bg-pallate2 text-white " style="background-color: #FFB980;">
-             
+            <div class="intro-text left-0 text-left  p-4 rounded bg-colour4 text-white ">
               <div class="inner-intro animate-in-right">
-                <h1 class="display-4 font-weight-bold content">"Sharing Is Caring"</h1>
+                <h2 class="display-4 ">"Sharing Is Caring"</h2>
                 
                 <!--DATE-->
-                <h4 class="mb-4 content">&#91; Saturday,2017 June 17 &#93;</h4>
+                <h4 class="mb-4">&#91; Saturday,2017 June 17 &#93;</h4>
                 
                 <!--Content-->
-                <p class="mb-3 content">Sadbhawna Samiti donated miscellaneous items to K K Academy School such that the young students get a good start in their academic journey, aiming at providing them with a creative and informational environment in school
+                <p class="mb-3">Sadbhawna Samiti donated miscellaneous items to K K Academy School such that the young students get a good start in their academic journey, aiming at providing them with a creative and informational environment in school
                </p>
                   
                 <!--collapise content-->
-                <a class="btn btn-lg btn-outline-light mb-3" href="#collapse3" data-toggle="collapse" >Read More</a>
+                <a class="btn btn-lg btn-outline-light mb-3" id="expand3" href="#collapse3" data-toggle="collapse" >Read More</a>
                 
                 <div class="collapse mt-2" id="collapse3">
                 <p class="mb-3 content"> </p>
@@ -352,7 +343,7 @@ For further details, contact : 9839107666, 9838489698
                 
                 <a href="../Gallery_pages/album5.html" class="anchor-gallery"><p class="lead">View Gallery &gt; </p></a>
                 
-                <!--COMMENTS-->
+               <!--COMMENTS-->
                 <p class="lead">Comments</p>
                 <div class="row">
                   <div class="col-md-12">
@@ -377,10 +368,10 @@ For further details, contact : 9839107666, 9838489698
                   </div>
                   
                   <!--share links for projects-->                    
-                  <div class="mt-3 text-capitalize">
+                  <div class="mt-2">
                     <div class="d-inline-flex">
                       <h2>Share:</h2>
-                      <div class="col-12 d-inline-flex col-md-12">
+                      <div class="d-inline-flex col-md-12">
                         <a href="https://www.facebook.com/" class="text-white" target="_blank">
                           <i class="fa fa-fw fa-facebook fa-2x mx-2 text-white"></i>
                         </a>
@@ -411,32 +402,32 @@ For further details, contact : 9839107666, 9838489698
         
         <!--ACT-4-->
         
-        <!--IMAGE-->
-        <div class="container my-2 ">
+        <div class="container my-3 pt-3">
           <div class="intro">
-            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded animate-in-left" 
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded animate-in-left shadow"
             src="../../images/our-activities/04/img2.png" alt="" style="box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.25);">
             
-            <div class="intro-text left-0 text-left bg-faded p-5 rounded bg-pallate2 text-white" style="background-color: #FF8080;">
+            <!--TEXT-->
+            <div class="intro-text left-0 text-left p-4 rounded bg-colour5 text-white">
              
-             <!--TEXT-->
+            
               <div class="inner-intro animate-in-right">
-                <h1 class="display-4 font-weight-bold content">" Anti Nicotine Awareness Program."</h1>
+                <h2 class="display-4">" Anti Nicotine Awareness Program."</h2>
                 
                 <!--DATE-->
-                <h4 class="mb-4 content"> &#91; Saturday,2017 June 17 &#93;</h4>
+                <h4 class="mb-4"> &#91; Saturday,2017 June 17 &#93;</h4>
                 
                 <!--Content-->
-                <p class="mb-3 content">Spreading awareness about the Ill effects of smoking. It is important to engage with school children who are at a vulnerable age where they deal with stress, pressure and other changes (emotional, physical, psychological)</p>
+                <p class="mb-3">Spreading awareness about the Ill effects of smoking. It is important to engage with school children who are at a vulnerable age where they deal with stress, pressure and other changes (emotional, physical, psychological)</p>
                   
                <!--collapise content-->
-                <a class="btn btn-lg btn-outline-light mb-3" href="#collapse4" data-toggle="collapse" >Read More</a>
+                <a class="btn btn-lg btn-outline-light mb-3" id="expand4" href="#collapse4" data-toggle="collapse" >Read More</a>
                 
                 <div class="collapse mt-2" id="collapse4">
                 <p class="mb-3 content"></p>
                 
                 <!--LINK TO GALLERY-->
-                <a href="../Gallery_pages/album_%20AntiNicotine.html"><p class="lead text-white">View Gallery &gt; </p></a>
+                <a class="anchor-gallery" href="../Gallery_pages/album_%20AntiNicotine.html"><p class="lead">View Gallery &gt; </p></a>
                 
                 <!--COMMENTS-->
                 <p class="lead">Comments</p>
@@ -463,10 +454,10 @@ For further details, contact : 9839107666, 9838489698
                   </div>
                   
                   <!--share links for projects-->                    
-                  <div class="mt-3 text-capitalize">
+                  <div class="mt-2">
                     <div class="d-inline-flex">
                       <h2>Share:</h2>
-                      <div class="col-12 d-inline-flex col-md-12">
+                      <div class="d-inline-flex col-md-12">
                         <a href="https://www.facebook.com/" class="text-white" target="_blank">
                           <i class="fa fa-fw fa-facebook fa-2x mx-2 text-white"></i>
                         </a>
@@ -494,179 +485,158 @@ For further details, contact : 9839107666, 9838489698
           </div>
        </div>
       
-      <!--PAGINATION-->
-      
-      <div class="row mt-3 text-capitalize">
-        <div class="col-md-12">
-          <ul class="pagination">
-            <li class="page-item">
-              <a class="page-link" href="Act-p3.html">
-                <span>«</span>
-                <span class="sr-only">Previous</span>
-              </a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="Act-p6.html">1</a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="Act-p5.html">2</a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="Act-p4.html">3</a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="Act-p3.html">4</a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="#">5</a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="Act-p1.html">6</a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="Act-p1.html">
-                <span>»</span>
-                <span class="sr-only">Next</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
     </div>
-  </div>
 </div>
+   
 <!--EOF ACTIVITIES-->
-     
-    <!--NEWSLETTER-->
-  <div class="py-3 text-white bg-primary text-center" style="background-image: url('../../images/sadbhawansamitijoin.png');background-repeat: no-repeat;background-position: center; background-size: cover; ">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="col-md-12 text-center">
-            <h1 class="text-center text-white">GET UPDATE REGARDING  ORGANISATION NEWS</h1>
-          </div>
-      	<!--FORM-->           
-        <div class="container">
-          <div class="row">
-           <div class="col-md-12">
-            <div class="row my-2">
-             <div class="col-md-6">
-              <input type="text" class="form-control form-control-lg" id="InputName" placeholder="First Name" required="required"> </div>
-             <div class="col-md-6">
-              <input type="text" class="form-control form-control-lg" id="InputName" placeholder="Last name"> </div>
-            </div>
-           <div class="row my-2">
-            <div class="col-md-6">
-              <input type="email" class="form-control form-control-lg" id="InputEmail1" placeholder="Enter email" required="required"> </div>
-            <div class="mx-auto col-md-6">
-             <button type="submit" class="btn bg-pallate1 text-white btn-block btn-lg">Subscribe to Newsletter</button>
-              
-            </div>
-           </div>
-          </div>
-          </div>
-        </div>
-        <!--eof FORM-->
-       </div>
+
+<!--PAGINATION-->
+
+<div class="py-2">
+<div class="container ">
+  <div class="row ">
+	<div class="col-md-6 mx-auto">
+	  <ul class="pagination pagination-info ">
+		<li class="  page-item">
+		  <a href="Act-p3.html" class="page-link"> prev</a>
+		</li>
+		<li class="  page-item">
+		  <a href="Act-p6.html" class="page-link">1</a>
+		</li>
+		<li class="  page-item">
+		  <a href="Act-p5.html" class="page-link">2</a>
+		</li>
+		<li class="  page-item">
+		  <a href="Act-p4.html" class="page-link">3</a>
+		</li>
+		<li class=" page-item">
+		  <a href="Act-p3.html" class="page-link">4</a>
+		</li>
+		<li class=" active page-item">
+		  <a href="#" class="page-link">5</a>
+		</li>
+	    <li class="page-item">
+		  <a href="Act-p1.html" class="page-link">6</a>
+		</li>
+		<li class="page-item">
+		  <a href="Act-p1.html" class="page-link">next </a>
+		</li>
+	  </ul>
 	</div>
   </div>
 </div>
-   
-   
-    <!--Footer-->
-    <div>
-      <div class="container">
-        <div class="row">
-          <div class="p-4 col-md-4">
-            <h2 class="mb-4 text-secondary">The organisation</h2>
-            <ul class="list-unstyled">
-              <a href="about.html" class="text-dark">- About Us</a>
-              <br>
-              <a href="Work.html" class="text-dark">- Key Operating Sector</a>
-              <br>
-              <a href="career.html#Join-us" class="text-dark">- Join Our Cause</a>
-              <br>
-              <a href="Donation.html" class="text-dark">- Make Donation</a>
-            </ul>
-          </div>
-          <div class="p-4 col-md-4">
-            <h2 class="mb-4 text-secondary">Important Links</h2>
-            <ul class="list-unstyled">
-              <a href="Gallery.html" class="text-dark">- Our Gallery</a>
-              <br>
-              <a href="about.html#Our-member" class="text-dark">- Meet Our Team</a>
-              <br>
-              <a href="career.html#Join-us" class="text-dark">- Career</a>
-              <br>
-              <!--here is download link for profile pdf-->
-              <a href="../../Documents/Sadbhawna%20Profile%202018.pdf" class="text-dark" target="_blank">- Download Our Profile</a>
-            </ul>
-          </div>
-          <div class="p-4 col-md-4">
-            <p class="" contenteditable="true">
-              <a href="tel:+91-5224234065">
-                <i class="fa d-inline mr-3 text-secondary fa-phone"></i>+91-5224234065, +91-9792972134</a>
-            </p>
-            <p>
-              <a href="mailto:sadbhawna.lko@gmail.com">
-                <i class="fa d-inline mr-3 text-secondary fa-envelope-o"></i>sadbhawna.lko@gmail.com</a>
-            </p>
-            <p>
-              <a href="https://goo.gl/maps/AUq7b9W7yYJ2" target="_blank">
-                <i class="fa d-inline mr-3 fa-map-marker text-secondary"></i>A-965/2 Indira Nagar, Lucknow-226016, Uttar Pradesh</a>
-            </p>
-            <p>
-              <a href="https://www.sadbhawnasamiti.com" target="_blank">
-                <i class="fa fa-safari mr-3 text-secondary"></i>www.sadbhawnasamiti.com</a>
-            </p>
+</div>
+<!--EOF PAGINATION-->
+ 
+ <!--NEWSLETTER-->
+  <div class=" py-5 text-white bg-colour2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <p class="lead">Sign up to our newsletter for the latest news</p>
+          <form class="form-inline">
+            <div class="form-group">
+              <input type="email" class="form-control my-1 mr-1 form-control-lg" placeholder="Your e-mail here"> </div>
+            <button type="submit" class="btn my-1 btn-outline-colour2-1 btn-lg">Subscribe</button>
+          </form>
+        </div>
+        <div class="col-md-4 text-center">
+          <p class="lead">Follows us on:</p>
+          <div class=" col-md-12 text-center">
+            <a href="https://www.facebook.com/Sadbhawna-Samiti-986608928148846/?hc_ref=ARR2DRKqZJn8rAMql9MaHOiG3QFmwRUjlCywglmNM318FW_JCHt7EsCZEl6M_CUbv_c" class="text-white" target="_blank">
+              <i class="fa fa-fw fa-facebook fa-2x mx-2"></i>
+            </a>
+            <a href="https://www.google.com/" class="text-white" target="_blank">
+              <i class="fa fa-google-plus fa-2x mx-2 "></i>
+            </a>
+            <a href="https://www.linkedin.com/feed/" class="text-white" target="_blank">
+              <i class="fa fa-fw fa-2x fa-linkedin mx-2"></i>
+            </a>
+            <a href="https://www.instagram.com/sadbhawna.samiti/" class="text-white" target="_blank">
+              <i class="fa fa-fw fa-instagram fa-2x mx-2"></i>
+            </a>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12 mt-3 text-capitalize">
-            <img class="img-fluid d-block mx-auto" src="../../images/logo.png" width="300">
+      </div>
+      <div class="row"> </div>
+    </div>
+  </div>
+  
+  <!--FOOTER-->
+  <footer class="bg-white text-colour1">
+    <div class="container">
+      <div class="row">
+        <div class="p-4 col-md-4">
+          <h2 class="mb-4">The Organisation</h2>
+          <ul class="list-unstyled">
+            <a href="Pages/about.html" class="">- About Us</a>
             <br>
-            <div class="col-12 col-md-12 text-center">
-              <a href="https://www.facebook.com/Sadbhawna-Samiti-986608928148846/?hc_ref=ARR2DRKqZJn8rAMql9MaHOiG3QFmwRUjlCywglmNM318FW_JCHt7EsCZEl6M_CUbv_c" class="text-white" target="_blank">
-                <i class="fa fa-fw fa-facebook fa-2x mx-2 text-dark"></i>
-              </a>
-              <a href="https://www.google.com/" class="text-white" target="_blank">
-                <i class="fa fa-google-plus fa-2x mx-2 text-dark"></i>
-              </a>
-              <a href="https://www.linkedin.com/feed/" class="text-white" target="_blank">
-                <i class="fa fa-fw fa-2x fa-linkedin mx-2 text-dark"></i>
-              </a>
-              <a href="https://www.instagram.com/sadbhawna.samiti/" class="text-white" target="_blank">
-                <i class="fa fa-fw fa-instagram fa-2x mx-2 text-dark"></i>
-              </a>
-            </div>
-            <div class="col-md-12 mt-3 text-capitalize"> </div>
+            <a href="Pages/Work.html" class="">- Key Operating Sector</a>
+            <br>
+            <a href="Pages/career.html#Join-us" class="">- Join Our Cause</a>
+            <br>
+            <a href="Pages/Donation.html" class="">- Make Donation</a>
+          </ul>
+        </div>
+        <div class="p-4 col-md-4">
+          <h2 class="mb-4  ">Important Links</h2>
+          <ul class="list-unstyled">
+            <a href="Pages/Gallery.html" class=" ">- Our Gallery</a>
+            <br>
+            <a href="Pages/about.html#team" class=" ">- Our Team</a>
+            <br>
+            <a href="Pages/career.html" class=" ">- Career</a>
+            <br>
+            <!--here is download link for profile pdf-->
+            <a href="Documents/Sadbhawna%20Profile%202018.pdf" class=" " target="_blank">- Download Our Profile</a>
+          </ul>
+        </div>
+        <div class="p-4 col-md-4">
+          <p class=""  >
+            <a href="tel:+91-5224234065">
+              <i class="fa d-inline mr-3  fa-phone"></i>+91-5224234065, +91-9792972134</a>
+          </p>
+          <p>
+            <a href="mailto:sadbhawna.lko@gmail.com">
+              <i class="fa d-inline mr-3  fa-envelope-o"></i>sadbhawna.lko@gmail.com</a>
+          </p>
+          <p>
+            <a href="https://goo.gl/maps/AUq7b9W7yYJ2" target="_blank">
+              <i class="fa d-inline mr-3 fa-map-marker "></i>A-965/2 Indira Nagar, Lucknow-226016, Uttar Pradesh</a>
+          </p>
+          <p>
+            <a href="https://www.sadbhawnasamiti.com" target="_blank">
+              <i class="fa fa-safari mr-3 "></i>www.sadbhawnasamiti.com</a>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <img class="img-fluid d-block mx-auto" src="../../images/logo.png" width="300">
+          <div class="col-md-12">
+            <p class="text-colour1 lead py-2"> &copy; Copyright 2018 Sadbhawna Samiti - All rights reserved.</p>
           </div>
         </div>
       </div>
     </div>
-    <!--eof footer-->
-    <div class="text-white bg-primary p-1">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 mt-3 text-capitalize text-center">
-            <p>&copy; Copyright 2018 Sadbhawna Samiti. All rights reserved.</p>
-          </div>
-        </div>
-      </div>
-    </div>
+  </footer>
+  <!--eof footer-->
+
+ 
+   
+   
     
-   <!-- SCRIPTS -->
-  
-  
+  <!--DEFAULT SCRPIT-->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>-->
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  
-  <script src="../../js/jquery.min.js"></script>
-  <!--scrpit for preloader -->
+
+ <!--SCRPIT-->
+ <script src="../../js/jquery.min.js"></script>
   <script type="text/javascript" src="../../js/custom.js"></script>
-  <!--eof preloader-->
+ <script src="../../js/act.js"></script>
+
+  
   
  
 </body>
